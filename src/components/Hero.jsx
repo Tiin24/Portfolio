@@ -1,6 +1,5 @@
 import React from 'react';
 
-// import woman image
 
 const Hero = () => {
   return (
@@ -17,9 +16,9 @@ const Hero = () => {
             <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
               Full Stack <br /> Web Debeloper.
             </h1>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Mira mi Curriculum
-            </button>
+            <a className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all' href='https://drive.google.com/file/d/1iMHKVjEQJOVvaywf5dhgDvH9WhY015Ld/view' target="_blank" rel="noreferrer">
+              Mira mi CV
+            </a>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Nav from "./Nav";
 import Social from "./Social";
+
 function Header() {
   const [bg, setBg] = useState(false);
 
@@ -18,7 +19,9 @@ function Header() {
     >
       {/* logo */}
       <div className="container mx-auto h-full flex items-center justify-between">
-        <a href="#"></a>
+        <div>
+          <img src="https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/logo_large.png?alt=media&token=f409ee24-d0d0-46ab-becd-4d8405bfb2df"  alt="logo" className="w-12"  />
+        </div>
         {/* nav */}
         <div className="hidden lg:block">
           <Nav />
