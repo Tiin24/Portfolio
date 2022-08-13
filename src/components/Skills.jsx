@@ -39,6 +39,9 @@ const Skills = () => {
           <div className='flex items-center justify-center'>
             <img className='lg:h-20' src="https://firebasestorage.googleapis.com/v0/b/greenshop-fa359.appspot.com/o/kisspng-redux-react-javascript-vue-js-single-page-applicat-5af5cde424ee15.8061979615260584681513.png?alt=media&token=f48f4f80-8dde-42fc-9c00-8d2783e0d0b4" alt="" />
           </div>
+          <div className='flex items-center justify-center'>
+            <img className='lg:h-20' src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="" />
+          </div>
         </div>
       </div>
     </section>
