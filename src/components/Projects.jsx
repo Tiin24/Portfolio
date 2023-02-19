@@ -8,7 +8,7 @@ const Project = () => {
           <a class="flex flex-col items-center text-center" href="https://food-pi-git-main-tiin24.vercel.app/">
             <img
               className="rounded-2xl"
-              src="https://www.cocinatis.com/media/photologue/photos/cache/dieta-equilibrada-plato-completo-y-sano_large_16x9.jpg"
+              src="https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/Captura%20de%20pantalla%202023-02-19%20172334.png?alt=media&token=6dee674e-1814-4e31-95d6-dda27807778f"
               alt=""
               width="30%"
               height='30%'
