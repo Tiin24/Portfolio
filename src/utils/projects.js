@@ -10,7 +10,7 @@ export const data = [
     {
       id: 2,
       img: "https://firebasestorage.googleapis.com/v0/b/greenshop-fa359.appspot.com/o/Proyecto%20final.png?alt=media&token=517479c2-5e7b-40e9-a793-a4ac294ef933",
-      link: "https://food-pi-git-main-tiin24.vercel.app/",
+      link: "https://pf-eccomerce.vercel.app/",
       title: "Full-Stack web Debeloper",
       subtitle:
         "Desarrollo de un E.Comerce, utilizando principalmente tecnologías como: React, Redux, PostgreSQL, nodeJS, JWT,Firebase.",
@@ -26,7 +26,7 @@ export const data = [
     {
       id: 4,
       img: "https://camo.githubusercontent.com/e20a6d17c011d4bf1e10b2399ef61126113d509a9be192c77cc173c158c3f3be/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f2d6d696f2d31666339392e61707073706f742e636f6d2f6f2f6c69737461646f25323070656c69732e706e673f616c743d6d6564696126746f6b656e3d39616438666363352d656336372d346165312d393836612d353136303465366334323230",
-      link: "",
+      link: "https://agus-flix.vercel.app/",
       title: "Front-End Developer",
       subtitle:
         "Desarrollé un sitio web utilizando React y Redux para mostrar una lista de películas y series de televisión Implementé una funcionalidad de búsqueda que permite a los usuarios buscar títulos de películas y series por nombre",
