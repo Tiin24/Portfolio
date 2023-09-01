@@ -38,6 +38,13 @@ export const data = [
       title: "Front-End web Debeloper",
       subtitle: "Desarrollé un sitio web utilizando React y Typescript que permite a los usuarios crear miniaturas de imágenes Implementé la API de Cloudinary para alojar y manipular las imágenes cargadas por los usuarios",
     },
+    {
+        id: 6,
+        img: "https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/Screenshot_2023-09-01_03-34-56.png?alt=media&token=1213a658-2355-4140-84a5-dac18d3b139d",
+        link: "https://star-wars-app-tiin24.vercel.app/",
+        title: "Star Wars Battle",
+        subtitle: "Desarrollé un sitio web utilizando React",
+    }
   ];
 
 export const skills = [
