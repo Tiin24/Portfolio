@@ -51,6 +51,12 @@ export const data = [
         link: "https://github.com/No-Country/C15-07-T-Node-React",
         title: "Condominium",
         subtitle: "Plataforma integrada para gestionar todos los aspectos de la gestión inmobiliaria", 
+    },{
+        id: 8,
+        img: "https://th.bing.com/th/id/R.5f9a7f7a278f4701a284b0e84f6db97a?rik=SrqLcCrRSIHewg&riu=http%3a%2f%2fwww.logotypes101.com%2flogos%2f664%2fA832CF218AB84E9A873BB40DE9CB41F9%2fdunkin_donuts-_circle_logo.png&ehk=wuejS6JhoZydrLkB0kqYcM07dZP6XfdD2ZDpJGdSZ00%3d&risl=&pid=ImgRaw&r=0",
+        link: "https://dunkin-clone.vercel.app/",
+        title: "Dunkin Clone",
+        subtitle: "Clon Web Dunkin Donuts cl", 
     }
   ];
 
