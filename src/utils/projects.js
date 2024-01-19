@@ -44,6 +44,13 @@ export const data = [
         link: "https://star-wars-app-tiin24.vercel.app/",
         title: "Star Wars Battle",
         subtitle: "Desarrollé un sitio web utilizando React",
+    },
+    {
+       id: 7,
+        img: "https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/condominium-56d43f1f.jpg?alt=media&token=fbf44372-f0df-4ebd-8f40-fcb7db89c92b",
+        link: "https://github.com/No-Country/C15-07-T-Node-React",
+        title: "Condominium",
+        subtitle: "Plataforma integrada para gestionar todos los aspectos de la gestión inmobiliaria", 
     }
   ];
 
