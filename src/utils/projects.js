@@ -1,6 +1,6 @@
 export const data = [
     {
-      id: 1,
+      id: 7,
       img: "https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/Captura%20de%20pantalla%202023-02-19%20172334.png?alt=media&token=6dee674e-1814-4e31-95d6-dda27807778f",
       link: "https://food-pi-git-main-tiin24.vercel.app/",
       title: "Full-Stack web Debeloper",
@@ -46,7 +46,7 @@ export const data = [
         subtitle: "Desarrollé un sitio web utilizando React",
     },
     {
-       id: 7,
+       id: 1,
         img: "https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/condominium-56d43f1f.jpg?alt=media&token=fbf44372-f0df-4ebd-8f40-fcb7db89c92b",
         link: "https://github.com/No-Country/C15-07-T-Node-React",
         title: "Condominium",
