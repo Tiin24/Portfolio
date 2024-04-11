@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vCard - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/My-icon.png"
+              alt="Agustin Romero"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Agustin Romero">Agustin Romero</h1>
+
+            <p class="title">Web developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="mailto:romeroisaiasagustin@gmail.com"
+                  class="contact-link"
+                  >romeroisaiasagustin@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+541173630520" class="contact-link"
+                  >+54 (11) 7363-0530</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">Jan 24, 1999</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Tapiales, Buenos Aires, ARG</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/Tiin24" target="_blank" class="social-link">
+                <ion-icon class="socials-icons" name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/isaias-romero/" target="_blank" class="social-link">
+                <ion-icon
+                  class="socials-icons"
+                  name="logo-linkedin"
+                ></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              👋🏻 ¡Hola! Soy Agustin, Desarrollador Full Stack residente en
+              Buenos Aires, Argentina. Amante de la programación y el mundo IT
+              en general, actualmente esoty en búsqueda de mi primera
+              experiencia laboral como desarrolador web 👶🏽.
+            </p>
+
+            <p>
+              Soy una persona autónoma y proactiva, esa ventaja me llevó a
+              realizar cursos de programación donde note que realmente me gusta
+              y puedo pasar horas y horas. 👨🏽‍💻 Me encantaría formar parte de una
+              empresa donde pueda aplicar todos mis conocimientos y, al mismo
+              tiempo, que me permita desarrollarme profesionalmente. ¡Gracias
+              por tomarte el tiempo de leerme! Espero tener la oportunidad de
+              trabajar juntos. Escríbeme 👇 📧 romeroisaiasagustin@gmail.com
+              Saludos! 🤗
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/DesktopComputerMac.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Font-End</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/coding-file.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/server-interconnection.svg"
+                    alt="mobile app icon icon-box"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Back-End</h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and
+                    Android.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/CutScissors.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Clean code</h4>
+
+                  <p class="service-item-text">
+                    I make high-quality photos of any category at a professional
+                    level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Skills</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/CSS3.png" alt="CSS3" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/Git.png" alt="Git" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/HTML5.png" alt="HTML5" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/JavaScript.png" alt="JavaScript" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/Node.js.png" alt="Node.js" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/React.png" alt="React" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/Redux.png" alt="Redux" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/Docker.png" alt="Docker" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/MySQL.png" alt="MySQL" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/Sequelize.png" alt="Sequelize" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Tailwind CSS.png"
+                    alt="Tailwind"
+                  />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/Next.js.png" alt="Next" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/TypeScript.png" alt="TypeScript" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/Java.png" alt="Java" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/MongoDB.png" alt="MongoDB" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/PostgresSQL.png"
+                    alt="PostgresSQL"
+                  />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/Express.png" alt="Express" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/Bootstrap.png" alt="Bootstrap" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/FastAPI.png" alt="FastAPI" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/Figma.png" alt="Figma" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/GitHub.png" alt="GitHub" />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/NPM.png" alt="NPM" />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  One Oracle Next Education
+                </h4>
+
+                <span>2023</span>
+
+                <p class="timeline-text">
+                  * Certificado en desarrollo de aplicaciones back end Java por
+                  Oracle <br />
+                  * Aprendí a instalar el entorno de desarrollo Java, escribir
+                  código Java, crear y usar clases, objetos y métodos, y
+                  trabajar con datos <br />
+                  * Aprendí sobre las diferentes estructuras de datos y
+                  algoritmos que se utilizan en Java, y cómo utilizarlas para
+                  resolver problemas
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Henry</h4>
+
+                <span>2022</span>
+
+                <p class="timeline-text">
+                  * Mas de 800 hrs de programación continua con las ultimas
+                  tecnologías del mercado laboral. <br />
+                  * Realice proyectos individuales y grupales con metodologia
+                  agil Scrum.<br />
+                  * Elaboración de múltiples aplicaciones Web de consumo de
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Udemy</h4>
+
+                <span>2021</span>
+
+                <p class="timeline-text">
+                  Duis aute irure dolor in reprehenderit in voluptate, quila
+                  voluptas mag odit aut fugit, sed consequuntur magni dolores
+                  eos.
+                </p>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://star-wars-app-tiin24.vercel.app/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/Screenshot_2023-09-01_03-34-56.png?alt=media&token=1213a658-2355-4140-84a5-dac18d3b139d"
+                      alt="finance"
+                      loading="lazy"
+                      height="228px"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Star Wars Battle</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://food-pi-git-main-tiin24.vercel.app/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/Captura%20de%20pantalla%202023-02-19%20172334.png?alt=media&token=6dee674e-1814-4e31-95d6-dda27807778f"
+                      alt="orizon"
+                      loading="lazy"
+                      height="228px"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Food App</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="https://github.com/Tiin24/PokedexApp" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://cdn.dribbble.com/users/1171520/screenshots/6540871/pokedex2.png"
+                      alt="fundo"
+                      loading="lazy"
+                      height="228px"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Pokedex App</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="https://agus-flix.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/listado%20pelis.png?alt=media&token=9ad8fcc5-ec67-4ae1-986a-51604e6c4220"
+                      alt="brawlhalla"
+                      loading="lazy"
+                      height="228px"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Agus-Flix</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://pf-eccomerce.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/greenshop-fa359.appspot.com/o/Proyecto%20final.png?alt=media&token=517479c2-5e7b-40e9-a793-a4ac294ef933"
+                      alt="dsm."
+                      loading="lazy"
+                      height="228px"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Green Shop</h3>
+
+                  <p class="project-category">web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://proof-of-concept-five.vercel.app/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/Captura%20de%20pantalla%202023-07-25%20041941.png?alt=media&token=6ab224cc-eec4-4b09-8029-a0a25b5d636e"
+                      alt="metaspark"
+                      loading="lazy"
+                      height="228px"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Thumbnail Generator</h3>
+
+                  <p class="project-category">web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/No-Country/C15-07-T-Node-React"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/condominium-56d43f1f.jpg?alt=media&token=fbf44372-f0df-4ebd-8f40-fcb7db89c92b"
+                      alt="summary"
+                      loading="lazy"
+                      height="228px"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Condominium</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Web development"
+              >
+                <a href="https://dunkin-clone.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://th.bing.com/th/id/R.5f9a7f7a278f4701a284b0e84f6db97a?rik=SrqLcCrRSIHewg&riu=http%3a%2f%2fwww.logotypes101.com%2flogos%2f664%2fA832CF218AB84E9A873BB40DE9CB41F9%2fdunkin_donuts-_circle_logo.png&ehk=wuejS6JhoZydrLkB0kqYcM07dZP6XfdD2ZDpJGdSZ00%3d&risl=&pid=ImgRaw&r=0"
+                      alt="task manager"
+                      loading="lazy"
+                      height="228px"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Dunkin Clone</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://maps.google.com/maps?q=Buenos%20Aires&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                width="300"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <div style="display: flex; justify-content: center">
+              <a
+                href="mailto:romeroisaiasagustin@gmail.com"
+                class="contact-link"
+                class="form"
+                data-form
+              >
+                <button class="form-btn" type="submit" data-form-btn>
+                  <ion-icon name="paper-plane"></ion-icon>
+                  <span>Send Message</span>
+                </button>
+              </a>
+            </div>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
