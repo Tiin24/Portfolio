@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Modern Landing Page",
+    "category": "Web development",
+    "url": "https://modern-landing-page-ten.vercel.app/",
+    "img": "./assets/images/landing page.png"
+  },
+  {
+    "title": "CSV Api REST",
+    "category": "Back End development",
+    "url": "https://github.com/Tiin24/CsvApiRest",
+    "img": "https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/gear.png?alt=media&token=e5ccc574-8dba-4dd4-a463-e1cac54bab43"
+  },
+  {
+    "title": "Tune Match",
+    "category": "Web development",
+    "url": "https://s13-05-t-node-react-1b9t.onrender.com/",
+    "img": "./assets/images/laptopChat.png"
+  },
+  {
+    "title": "Pokedex App",
+    "category": "Applications",
+    "url": "https://github.com/Tiin24/PokedexApp",
+    "img": "https://cdn.dribbble.com/users/1171520/screenshots/6540871/pokedex2.png"
+  },
+  {
+    "title": "Thumbnail Generator",
+    "category": "Web development",
+    "url": "https://proof-of-concept-five.vercel.app/",
+    "img": "https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/Captura%20de%20pantalla%202023-07-25%20041941.png?alt=media&token=6ab224cc-eec4-4b09-8029-a0a25b5d636e"
+  },
+  {
+    "title": "Condominium",
+    "category": "Web development",
+    "url": "https://condominium-coral.vercel.app/",
+    "img": "https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/condominium-56d43f1f.jpg?alt=media&token=fbf44372-f0df-4ebd-8f40-fcb7db89c92b"
+  },
+  {
+    "title": "Dunkin Clone",
+    "category": "Web development",
+    "url": "https://dunkin-clone.vercel.app/",
+    "img": "https://th.bing.com/th/id/R.5f9a7f7a278f4701a284b0e84f6db97a?rik=SrqLcCrRSIHewg&riu=http%3a%2f%2fwww.logotypes101.com%2flogos%2f664%2fA832CF218AB84E9A873BB40DE9CB41F9%2fdunkin_donuts-_circle_logo.png&ehk=wuejS6JhoZydrLkB0kqYcM07dZP6XfdD2ZDpJGdSZ00%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "title": "Star Wars Battle",
+    "category": "Web development",
+    "url": "https://star-wars-app-tiin24.vercel.app/",
+    "img": "https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/Screenshot_2023-09-01_03-34-56.png?alt=media&token=1213a658-2355-4140-84a5-dac18d3b139d"
+  },
+  {
+    "title": "Weather App",
+    "category": "Web development",
+    "url": "https://weather-app-tiin24.vercel.app/",
+    "img": "./assets/images/weather App.png"
+  },
+  {
+    "title": "Food App",
+    "category": "Web development",
+    "url": "https://food-pi-git-main-tiin24.vercel.app/",
+    "img": "https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/Captura%20de%20pantalla%202023-02-19%20172334.png?alt=media&token=6dee674e-1814-4e31-95d6-dda27807778f"
+  },
+  {
+    "title": "Agus-Flix",
+    "category": "Web development",
+    "url": "https://agus-flix.vercel.app/",
+    "img": "https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/listado%20pelis.png?alt=media&token=9ad8fcc5-ec67-4ae1-986a-51604e6c4220"
+  },
+  {
+    "title": "Green Shop",
+    "category": "Web development",
+    "url": "https://pf-eccomerce.vercel.app/",
+    "img": "https://firebasestorage.googleapis.com/v0/b/greenshop-fa359.appspot.com/o/Proyecto%20final.png?alt=media&token=517479c2-5e7b-40e9-a793-a4ac294ef933"
+  }
+]
