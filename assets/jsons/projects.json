@@ -1,5 +1,17 @@
 [
   {
+    "title": "Tickets Manager",
+    "category": "Web development",
+    "url": "https://ticket-manager-gamma.vercel.app/",
+    "img": "./assets/images/Tickets.png"
+  },
+  {
+    "title": "Anita-Peluqueria-Citas",
+    "category": "Web development",
+    "url": "https://anita-frontend.vercel.app/",
+    "img": "./assets/images/Peluqueria.jpg"
+  },
+  {
     "title": "Modern Landing Page",
     "category": "Web development",
     "url": "https://modern-landing-page-ten.vercel.app/",
@@ -15,7 +27,7 @@
     "title": "Tune Match",
     "category": "Web development",
     "url": "https://s13-05-t-node-react-1b9t.onrender.com/",
-    "img": "./assets/images/laptopChat.png"
+    "img": "./assets/images/tinder.png"
   },
   {
     "title": "Pokedex App",
@@ -33,7 +45,7 @@
     "title": "Condominium",
     "category": "Web development",
     "url": "https://condominium-coral.vercel.app/",
-    "img": "https://firebasestorage.googleapis.com/v0/b/lo-mio-1fc99.appspot.com/o/condominium-56d43f1f.jpg?alt=media&token=fbf44372-f0df-4ebd-8f40-fcb7db89c92b"
+    "img": "./assets/images/dashboard.png"
   },
   {
     "title": "Dunkin Clone",
@@ -51,7 +63,7 @@
     "title": "Weather App",
     "category": "Web development",
     "url": "https://weather-app-tiin24.vercel.app/",
-    "img": "./assets/images/weather App.png"
+    "img": "./assets/images/clima.jpg"
   },
   {
     "title": "Food App",
