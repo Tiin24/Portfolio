@@ -2,13 +2,13 @@
   {
     "title": "Tickets Manager",
     "category": "Web development",
-    "url": "https://ticket-manager-gamma.vercel.app/",
+    "url": "https://ticket-manager-sigma.vercel.app/",
     "img": "./assets/images/Tickets.png"
   },
   {
     "title": "Anita-Peluqueria-Citas",
     "category": "Web development",
-    "url": "https://anita-frontend.vercel.app/",
+    "url": "https://anita-peluqueria.vercel.app/",
     "img": "./assets/images/Peluqueria.jpg"
   },
   {
