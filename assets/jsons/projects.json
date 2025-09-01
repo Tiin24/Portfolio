@@ -1,5 +1,11 @@
 [
   {
+    "title": "Fynix Videogames",
+    "category": "Web development",
+    "url": "https://videogames-library.vercel.app/",
+    "img": "https://static.standard.co.uk/2020/12/07/11/topgames2020compositejpg?width=1200"
+  },
+  {
     "title": "IA Form Builder",
     "category": "Web development",
     "url": "https://form-builder-ia.vercel.app/",
@@ -57,7 +63,7 @@
     "title": "Dunkin Clone",
     "category": "Web development",
     "url": "https://dunkin-clone.vercel.app/",
-    "img": "https://th.bing.com/th/id/R.5f9a7f7a278f4701a284b0e84f6db97a?rik=SrqLcCrRSIHewg&riu=http%3a%2f%2fwww.logotypes101.com%2flogos%2f664%2fA832CF218AB84E9A873BB40DE9CB41F9%2fdunkin_donuts-_circle_logo.png&ehk=wuejS6JhoZydrLkB0kqYcM07dZP6XfdD2ZDpJGdSZ00%3d&risl=&pid=ImgRaw&r=0"
+    "img": "https://logos-world.net/wp-content/uploads/2020/12/Dunkin-Logo.png"
   },
   {
     "title": "Star Wars Battle",
